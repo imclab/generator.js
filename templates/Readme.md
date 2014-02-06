@@ -2,8 +2,16 @@
 
 ## Installation
 
-```bash
+browser:
+
+```
 component install <%= componentName %>
+```
+
+nodejs:
+
+```
+npm install <%= componentName %>
 ```
 
 ## Licence
