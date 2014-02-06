@@ -1,0 +1,13 @@
+{
+  "name": "corpus-generator",
+  "version": "0.0.1",
+  "main": "./index.js",
+  "cookbook": "corpus",
+  "dependencies": {
+    "tower-strcase": "*",
+    "commander": "~1.1.1"
+  },
+  "scripts": {
+    "postinstall": "tower register cookbook corpus corpus-generator"
+  }
+}

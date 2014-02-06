@@ -1,0 +1,10 @@
+{
+  "name": "<%= projectName %>",
+  "repo": "<%= componentName %>",
+  "description": "<%= strcase.titleCase(projectName) %> corpus",
+  "version": "0.0.1",
+  "keywords": ["corpus", "nlp", "json", "data"],
+  "main": "index.json",
+  "json": ["index.json"],
+  "license": "MIT"
+}
