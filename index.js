@@ -31,7 +31,7 @@ exports.create = function(recipe, args, done){
   recipe.directory(projectName, function(){
     recipe.template('Readme.md');
     recipe.template('component.json');
-    recipe.template('package.json');
+    recipe.template('package.json', 'package');
     recipe.template('.gitignore', 'gitignore');
     recipe.template('index.js');
     recipe.template('index.json');
